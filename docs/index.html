@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta charset="UTF-8">
+  <title>MCBS Docs</title>
+  <link type="image/png" rel="shortcut icon" href="favicon.png" />
+  <link rel="stylesheet" href="Lib/vue.css">
+</head>
+<body>
+  <div data-app id="app">正在载入 Minecraft Block Screen 文档……</div>
+  <script>
+    window.$docsify = {
+        loadSidebar: 'sidebar.md',
+        name: 'MCBS Docs',
+        subMaxLevel: 1,
+        search: {
+            placeholder: '键入以搜索！',
+            noData: '找不到结果！',
+            depth: 6,
+        },
+    }
+  </script>
+  <script src="Lib/docsify.min.js"></script>
+  <script src="Lib/search.min.js"></script>
+</body>
+</html>
